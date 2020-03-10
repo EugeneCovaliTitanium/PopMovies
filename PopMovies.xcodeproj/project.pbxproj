@@ -36,8 +36,6 @@
 		E22817C624114A670010D36A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22817C424114A670010D36A /* Main.storyboard */; };
 		E22817C824114A6D0010D36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22817C724114A6D0010D36A /* Assets.xcassets */; };
 		E22817CB24114A6D0010D36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22817C924114A6D0010D36A /* LaunchScreen.storyboard */; };
-		E22817D624114A6E0010D36A /* PopMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22817D524114A6E0010D36A /* PopMoviesTests.swift */; };
-		E22817E124114A6E0010D36A /* PopMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22817E024114A6E0010D36A /* PopMoviesUITests.swift */; };
 		E22E11F024161EB200166C2A /* MovieDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E11EF24161EB200166C2A /* MovieDetailsTableViewController.swift */; };
 		E22E11F224161EC600166C2A /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E11F124161EC600166C2A /* MovieDetailsViewModel.swift */; };
 		E22E11F624161F3300166C2A /* MovieDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22E11F524161F3300166C2A /* MovieDetails.storyboard */; };
@@ -71,23 +69,6 @@
 		E2C4A282241219A900560B47 /* UIView+Identifire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C4A281241219A900560B47 /* UIView+Identifire.swift */; };
 		F20ED7988B8394C1F1F26C2F /* Pods_PopMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C45CB21BBF16C9733646C1 /* Pods_PopMovies.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E22817D224114A6E0010D36A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E22817B024114A670010D36A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E22817B724114A670010D36A;
-			remoteInfo = PopMovies;
-		};
-		E22817DD24114A6E0010D36A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E22817B024114A670010D36A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E22817B724114A670010D36A;
-			remoteInfo = PopMovies;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		429E246C94C19B3D6D72E8DA /* Pods-PopMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMovies.debug.xcconfig"; path = "Target Support Files/Pods-PopMovies/Pods-PopMovies.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,12 +105,6 @@
 		E22817C724114A6D0010D36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22817CA24114A6D0010D36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22817CC24114A6D0010D36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E22817D124114A6E0010D36A /* PopMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E22817D524114A6E0010D36A /* PopMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMoviesTests.swift; sourceTree = "<group>"; };
-		E22817D724114A6E0010D36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E22817DC24114A6E0010D36A /* PopMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E22817E024114A6E0010D36A /* PopMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMoviesUITests.swift; sourceTree = "<group>"; };
-		E22817E224114A6E0010D36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E22E11EF24161EB200166C2A /* MovieDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsTableViewController.swift; sourceTree = "<group>"; };
 		E22E11F124161EC600166C2A /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
 		E22E11F524161F3300166C2A /* MovieDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MovieDetails.storyboard; sourceTree = "<group>"; };
@@ -169,20 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20ED7988B8394C1F1F26C2F /* Pods_PopMovies.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E22817CE24114A6E0010D36A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E22817D924114A6E0010D36A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +252,6 @@
 			isa = PBXGroup;
 			children = (
 				E22817BA24114A670010D36A /* PopMovies */,
-				E22817D424114A6E0010D36A /* PopMoviesTests */,
-				E22817DF24114A6E0010D36A /* PopMoviesUITests */,
 				E22817B924114A670010D36A /* Products */,
 				60511C324CD089016F689F93 /* Pods */,
 				4E724CA83805F14B8F8A41C6 /* Frameworks */,
@@ -303,8 +262,6 @@
 			isa = PBXGroup;
 			children = (
 				E22817B824114A670010D36A /* PopMovies.app */,
-				E22817D124114A6E0010D36A /* PopMoviesTests.xctest */,
-				E22817DC24114A6E0010D36A /* PopMoviesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,24 +277,6 @@
 				E257EB432416BBA7000EE630 /* Screens */,
 			);
 			path = PopMovies;
-			sourceTree = "<group>";
-		};
-		E22817D424114A6E0010D36A /* PopMoviesTests */ = {
-			isa = PBXGroup;
-			children = (
-				E22817D524114A6E0010D36A /* PopMoviesTests.swift */,
-				E22817D724114A6E0010D36A /* Info.plist */,
-			);
-			path = PopMoviesTests;
-			sourceTree = "<group>";
-		};
-		E22817DF24114A6E0010D36A /* PopMoviesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E22817E024114A6E0010D36A /* PopMoviesUITests.swift */,
-				E22817E224114A6E0010D36A /* Info.plist */,
-			);
-			path = PopMoviesUITests;
 			sourceTree = "<group>";
 		};
 		E22E11EE24161E9800166C2A /* MovieDetailsScreen */ = {
@@ -473,42 +412,6 @@
 			productReference = E22817B824114A670010D36A /* PopMovies.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E22817D024114A6E0010D36A /* PopMoviesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E22817E824114A6E0010D36A /* Build configuration list for PBXNativeTarget "PopMoviesTests" */;
-			buildPhases = (
-				E22817CD24114A6E0010D36A /* Sources */,
-				E22817CE24114A6E0010D36A /* Frameworks */,
-				E22817CF24114A6E0010D36A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E22817D324114A6E0010D36A /* PBXTargetDependency */,
-			);
-			name = PopMoviesTests;
-			productName = PopMoviesTests;
-			productReference = E22817D124114A6E0010D36A /* PopMoviesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E22817DB24114A6E0010D36A /* PopMoviesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E22817EB24114A6E0010D36A /* Build configuration list for PBXNativeTarget "PopMoviesUITests" */;
-			buildPhases = (
-				E22817D824114A6E0010D36A /* Sources */,
-				E22817D924114A6E0010D36A /* Frameworks */,
-				E22817DA24114A6E0010D36A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E22817DE24114A6E0010D36A /* PBXTargetDependency */,
-			);
-			name = PopMoviesUITests;
-			productName = PopMoviesUITests;
-			productReference = E22817DC24114A6E0010D36A /* PopMoviesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -521,14 +424,6 @@
 				TargetAttributes = {
 					E22817B724114A670010D36A = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					E22817D024114A6E0010D36A = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = E22817B724114A670010D36A;
-					};
-					E22817DB24114A6E0010D36A = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = E22817B724114A670010D36A;
 					};
 				};
 			};
@@ -546,8 +441,6 @@
 			projectRoot = "";
 			targets = (
 				E22817B724114A670010D36A /* PopMovies */,
-				E22817D024114A6E0010D36A /* PopMoviesTests */,
-				E22817DB24114A6E0010D36A /* PopMoviesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -565,20 +458,6 @@
 				E289B5D224125FBD008DE88A /* LoadingView.xib in Resources */,
 				E22817C624114A670010D36A /* Main.storyboard in Resources */,
 				E289B5CD24125FBD008DE88A /* AppStylePopup.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E22817CF24114A6E0010D36A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E22817DA24114A6E0010D36A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,36 +582,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E22817CD24114A6E0010D36A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E22817D624114A6E0010D36A /* PopMoviesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E22817D824114A6E0010D36A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E22817E124114A6E0010D36A /* PopMoviesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E22817D324114A6E0010D36A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E22817B724114A670010D36A /* PopMovies */;
-			targetProxy = E22817D224114A6E0010D36A /* PBXContainerItemProxy */;
-		};
-		E22817DE24114A6E0010D36A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E22817B724114A670010D36A /* PopMovies */;
-			targetProxy = E22817DD24114A6E0010D36A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E22817C424114A670010D36A /* Main.storyboard */ = {
@@ -908,88 +758,6 @@
 			};
 			name = Release;
 		};
-		E22817E924114A6E0010D36A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D77NQN8JBR;
-				INFOPLIST_FILE = PopMoviesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.popMovies.PopMoviesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopMovies.app/PopMovies";
-			};
-			name = Debug;
-		};
-		E22817EA24114A6E0010D36A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D77NQN8JBR;
-				INFOPLIST_FILE = PopMoviesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.popMovies.PopMoviesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopMovies.app/PopMovies";
-			};
-			name = Release;
-		};
-		E22817EC24114A6E0010D36A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D77NQN8JBR;
-				INFOPLIST_FILE = PopMoviesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.popMovies.PopMoviesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PopMovies;
-			};
-			name = Debug;
-		};
-		E22817ED24114A6E0010D36A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D77NQN8JBR;
-				INFOPLIST_FILE = PopMoviesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.popMovies.PopMoviesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PopMovies;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1007,24 +775,6 @@
 			buildConfigurations = (
 				E22817E624114A6E0010D36A /* Debug */,
 				E22817E724114A6E0010D36A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E22817E824114A6E0010D36A /* Build configuration list for PBXNativeTarget "PopMoviesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E22817E924114A6E0010D36A /* Debug */,
-				E22817EA24114A6E0010D36A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E22817EB24114A6E0010D36A /* Build configuration list for PBXNativeTarget "PopMoviesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E22817EC24114A6E0010D36A /* Debug */,
-				E22817ED24114A6E0010D36A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,132 @@
+reporter: xcode
+opt_in_rules:
+  - force_unwrapping
+  - vertical_whitespace
+  - empty_count
+  - closure_end_indentation
+  - closure_spacing
+  - explicit_init
+  - first_where
+  - operator_usage_whitespace
+  - overridden_super_call
+  - prohibited_super_call
+  - redundant_nil_coalescing
+  - closing_brace
+  - opening_brace
+  - return_arrow_whitespace
+  - trailing_semicolon
+  - statement_position
+  - class_delegate_protocol
+  - closure_body_length
+  - collection_alignment
+  - comma
+  - colon
+  - control_statement
+  - empty_enum_arguments
+  - empty_parentheses_with_trailing_closure
+  - empty_string
+  - empty_xctest_method
+  - fallthrough
+  - generic_type_name
+  - redundant_set_access_control
+  - sorted_first_last
+  - syntactic_sugar
+  - toggle_bool
+  - unused_import
+  - unused_private_declaration
+  - weak_delegate
+  - xctfail_message
+  - multiline_function_chains
+disabled_rules:
+  - multiple_closures_with_trailing_closure
+  - todo
+  - trailing_whitespace
+  - void_return
+  - for_where
+  - nesting
+excluded:
+  - BetterTogether/Button.swift
+  - Pods
+  - BidiPassTests
+cyclomatic_complexity:
+  warning: 20
+line_length: 400
+file_length: 1000
+force_unwrapping: error
+function_parameter_count:
+  - 6
+  - 8
+function_body_length:
+  - 120
+  - 140
+type_body_length:
+  - 700
+  - 800
+large_tuple:
+    warning: 5
+    error: 7
+type_name:
+  min_length:
+    warning: 2
+  max_length:
+    warning: 60
+    error: 80
+identifier_name:
+  min_length:
+    warning: 1
+  max_length:
+    warning: 50
+    error: 60
+custom_rules:
+  disable:
+    name: "Disable Rule In Code"
+    regex: "(swiftlint:disable)"
+    message: "Please do not disable rule in code. "
+    severity: error
+    match_kinds: comment
+  outlet_collection:
+    name: "outlet_collection"
+    regex: "(@IBOutletCollection)"
+    message: "IBOutletCollection is not permitted. "
+    severity: error
+  comments_space:
+    name: "Space After Comment"
+    regex: '(^\s*//\w+)'
+    message: "There should be a space after //"
+    severity: warning
+    match_kinds: comment
+  switch_enum:
+    name: "Switch Enum"
+    regex: '(case\s\w+\.+rawValue:)'
+    message: "Do not use enum.rawValue in switch-case. Please convert value to enum first. "
+    severity: warning
+  weak_self_binding:
+    name: "Weak Self Binding"
+    regex: '(let\s+(?!this)\w+\s*=\s*self[,\s])'
+    message: "Please use \"let this = self\" or \"let `self` = self\" instead. "
+    severity: warning
+  unowned:
+    name: "Unowned"
+    regex: '(unowned)'
+    message: "Please use \"weak\" instead. "
+    severity: warning
+  empty_string:
+    name: "Empty String"
+    regex: '(.length\s*(==|!=|<|<=|>|>=)\s*0)'
+    message: "Please use \"isEmpty\" instead. "
+    severity: error
+  empty_count:
+    name: "Empty String"
+    regex: '(.count\s*(==|!=|<|<=|>|>=)\s*0)'
+    message: "Please use \"isEmpty\" instead. "
+    severity: error
+  bracket:
+    name: "Bracket"
+    regex: '(\}\n{2,}\}|\{\n{2,}\{)'
+    message: "No empty line between two open or close brackets. "
+    severity: warning
+  query_string:
+    name: "Query String"
+    regex: '(\s+[=!><]+ \\\(.*\))'
+    message: "Donot use the string interpolation syntax for query string. "
+    severity: warning
